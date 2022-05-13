@@ -19,6 +19,7 @@
 # The first line contains an integer n, the number of socks represented in ar.
 # The second line contains space-separated integers, , the colors of the socks in the pile.
 
+
 def sockMerchant(n, ar):
     pair_array = []
     pair = 0
@@ -39,3 +40,5 @@ def sockMerchant(n, ar):
             pair = pair + 1
     
     return pair
+
+    
